@@ -58,6 +58,9 @@ Unknown cards trigger a denial beep and access remains locked.
 | Servo    | D5 |
 
 ---
+## Preview
+<img src="assets/IMG_20251128_022740.jpg" width="450">
+---
 
 ## How It Works
 
@@ -91,6 +94,3 @@ Multiple cards can be supported by expanding comparison.
 • Keypad + Password dual verification  
 
 ---
-
-Ready to push as a GitHub repository.  
-Next step could be adding multi-UID support or WiFi logging.
