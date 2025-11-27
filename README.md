@@ -1,7 +1,8 @@
 # AccessForge
 A fast RFID authentication engine that verifies cards, unlocks via servo mechanism and visually communicates access states in real-time.
-
+---
 RFID Access Control System (RFID + LCD + Servo + Buzzer)
+
 A simple access control project using **MFRC522 RFID**, **I2C LCD Display**, **Servo Motor**, and **Buzzer**.  
 When an authorized UID card is scanned, the servo opens and a short buzzer signal indicates successful access.  
 Unknown cards trigger a denial beep and access remains locked.
