@@ -77,3 +77,20 @@ Unknown cards trigger a denial beep and access remains locked.
 ## Replace the UID
 
 Find your card UID using serial monitor then replace inside code:
+byte authorizedUID[4] = { 0xXX, 0xXX, 0xXX, 0xXX };
+
+Multiple cards can be supported by expanding comparison.
+
+---
+
+## Future Improvements
+
+• Multiple UID database  
+• Logging entries to SD card or Google Sheets  
+• IoT/Cloud authentication  
+• Keypad + Password dual verification  
+
+---
+
+Ready to push as a GitHub repository.  
+Next step could be adding multi-UID support or WiFi logging.
